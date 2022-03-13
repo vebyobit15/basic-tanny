@@ -1,23 +1,112 @@
 <body onLoad="window.print()">
-<x-app-layout>
+{{-- <x-app-layout> --}}
     <div class="py-12">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                 <div class="card">
-                        <div class="card-body">
+                        <div class="card-body ">
                             @csrf
-                                <!-- ประเภทรถ -->
+                            <table style="width:800px">
+                                <tr>
+                                  <th style="width:50px" align="right"><img src="/image/logo.png" width="50"></th>
+                                  <th align="left">&nbsp;ชงโคคาร์แคร์วิทยาลัยเทคนิคพังงา</th>
+                                  <th align="right">ใบเสร็จที่ id:{{$service->id}}</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td>ยี่ห้อรถ</td>
+                                    <td>{{$service->service_carbrand}}</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td>เลขทะเบียนรถ</td>
+                                    <td>{{$service->service_carnumber}}</td>
+                                  </tr>
+                                <tr>
+                                  <td></td>
+                                  <td>ชื่อลูกค้า</td>
+                                  <td>{{$service->customer_name}}</td>
+                                </tr>
+                                <tr>
+                                  <td></td>
+                                  <td>เบอร์โทรศัพท์</td>
+                                  <td>{{$service->customer_telnumber}}</td>
+                                </tr>
+                                <tr>
+                                  <td></td>
+                                  <td>รายการที่ทำ</td>
+                                  <td>ราคา {{$service->service_price}}</td>
+                                </tr>
+                                <tr>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                  
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    
+                                  </tr><tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+                                    
+                                  </tr><tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+                                    
+                                  </tr><tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+                                    
+                                  </tr>
+                                <tr>
+                                  <td></td>
+                                  <td></td>
+                                  <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>ลงชื่อลูกค้า..................................................</td>
+                                    <td>ลงชื่อเจ้าหน้าที่........................................</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+                                  </tr><tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td>(.....................................................................)</td>
+                                    <td>(....................................................................)</td>
+                                  </tr>
+                              </table>
+                                {{-- <!-- ประเภทรถ -->
                                 <div class="form-group">
-                                <label for="service_cartype">ประเภทรถ</label>
-                                <input disabled type="text" class="form-control" name="service_cartype" value="{{$service->service_cartype}}" placeholder="{{$service->service_cartype}}">
+                                <p><b>ชงโคคาร์แคร์วิทยาลัยเทคนิคพังงา<b></p>
+                                <label><b>ประเภทรถ<b></label>{{$service->service_cartype}}<label>&nbsp;ยี่ห้อรถ</label>{{$service->service_carbrand}}
                                 </div>
                                 @error('service_cartype')
                                     <span class="text-danger my-2">{{$message}}</span>
                                 @enderror
                                 <!-- ยี่ห้อรถ -->
                                 <div class="form-group">
-                                <label for="service_cartype">ยี่ห้อรถ</label>
+                                
                                 <input disabled type="text" class="form-control" name="service_carbrand" value="{{$service->service_carbrand}}" placeholder="{{$service->service_carbrand}}">
                                 </div>
                                 @error('service_carbrand')
@@ -78,7 +167,7 @@
                                 <br>
                                 <input disabled type="hidden" name="old_image" value="{{$service->service_image}}" >
                                 <div class="form-group">
-                                    <img src="{{asset($service->service_image)}}" alt="" width="130px" height="130px">
+                                    <img src="{{asset($service->service_image)}}" class="rounded" alt="" width="130px" height="130px">
                                 </div>
 
                                 <!-- วันที่ -->
@@ -88,11 +177,11 @@
                                 </div>
                                 @error('created_at')
                                     <span class="text-danger my-2">{{$message}}</span>
-                                @enderror
+                                @enderror --}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</x-app-layout>
+{{-- </x-app-layout> --}}

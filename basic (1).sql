@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 18, 2022 at 02:40 PM
+-- Generation Time: Mar 01, 2022 at 12:02 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -95,7 +95,9 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('oSDrtpbUtp3YYFyAgxNc5KWH5omgVM62zqcMVty1', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiVFVHYk5EbzdydTJiUFcxVW1GNFdHck1ZejhmbFZWdDdzR2hnQU44YiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9kYXNoYm9hcmQiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkZzJvMUFSckZEc3lCa2prWjMzMko4LlZQZWNMVEhKYmhzTjlpdHBBQzNEU0U3bXYvTnZZVEsiO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJGcybzFBUnJGRHN5Qmtqa1ozMzJKOC5WUGVjTFRISmJoc045aXRwQUMzRFNFN212L052WVRLIjt9', 1645169990);
+('2l7DGOl2AGNyJQc6fg5zpI0TBWmPMrIlwDA5dxHQ', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiZk1yNlB1Tk1YWlkwTXc0dDZnUnRvc2VqcGVDWGI2RTBIeWNNMDYxTSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9kYXNoYm9hcmQiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkdVg4YnlhMUZLaXhZVnhaM25jbDJYZTNBenFMdmV5U005MGpxWVlQZ2wvbmNVZGUyUFRmTjIiO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJHVYOGJ5YTFGS2l4WVZ4WjNuY2wyWGUzQXpxTHZleVNNOTBqcVlZUGdsL25jVWRlMlBUZk4yIjt9', 1646099617),
+('oSDrtpbUtp3YYFyAgxNc5KWH5omgVM62zqcMVty1', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiVFVHYk5EbzdydTJiUFcxVW1GNFdHck1ZejhmbFZWdDdzR2hnQU44YiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9kYXNoYm9hcmQiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkZzJvMUFSckZEc3lCa2prWjMzMko4LlZQZWNMVEhKYmhzTjlpdHBBQzNEU0U3bXYvTnZZVEsiO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJGcybzFBUnJGRHN5Qmtqa1ozMzJKOC5WUGVjTFRISmJoc045aXRwQUMzRFNFN212L052WVRLIjt9', 1645173824),
+('qq6AV62ohXthvxDUaBJW83xDrpeOsjDxD612XGsu', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiazdRTE9IRmdFZTJpOUVUQjh2d21oT2hsMG45NXhRU3dGQmJWeThnTiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1646099461);
 
 -- --------------------------------------------------------
 
@@ -123,7 +125,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `current_team_id`, `profile_photo_path`, `created_at`, `updated_at`) VALUES
-(1, 'Tannys', 'pattarapontan@gmail.com', NULL, '$2y$10$g2o1ARrFDsyBkjkZ332J8.VPecLTHJbhsN9itpAC3DSE7mv/NvYTK', NULL, NULL, 'tpZrJ7sJNl4LwLyQPXuEpP7QCMwfnpS8X7TwMZvwLJ1c5H3IT5uphGqJlYei', NULL, NULL, '2021-11-09 18:08:07', '2022-02-17 23:52:03'),
+(1, 'Tannys', 'pattarapontan@gmail.com', NULL, '$2y$10$uX8bya1FKixYVxZ3ncl2Xe3AzqLveySM90jqYYPgl/ncUde2PTfN2', NULL, NULL, 'tpZrJ7sJNl4LwLyQPXuEpP7QCMwfnpS8X7TwMZvwLJ1c5H3IT5uphGqJlYei', NULL, NULL, '2021-11-09 18:08:07', '2022-02-17 23:52:03'),
 (2, 'Tannysss', 'pattarapon_tanohno@hotmail.com', NULL, '$2y$10$uX8bya1FKixYVxZ3ncl2Xe3AzqLveySM90jqYYPgl/ncUde2PTfN2', NULL, NULL, NULL, NULL, NULL, '2021-11-09 18:09:11', '2021-11-09 18:09:11');
 
 --

@@ -1,6 +1,6 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+    <x-slot name="" >
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight ">
             แบบฟอร์มกรอกข้อมูล
         </h2>
     </x-slot>
@@ -82,7 +82,7 @@
                 <!-- รูปภาพ -->
                 <div class="form-group">
                 <label for="service_image">ภาพประกอบ</label>
-                <input type="file" class="form-control" name="service_image">
+                <input type="file" class="form-control " name="service_image">
                 </div>
                 @error('service_image')
                     <span class="text-danger my-2">{{$message}}</span>

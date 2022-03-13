@@ -42,7 +42,7 @@ public function update(Request $request , $id){
         'customer_name'=>'required|max:30',
         'customer_telnumber'=>'required|max:10',
         'service_price'=>'required|max:10',
-        'service_image'=>'required|mimes:jpg,jpeg,png',
+        'service_image'=>'mimes:jpg,jpeg,png',
     ]
     );
     $service_image = $request->file('service_image');
@@ -79,6 +79,7 @@ public function update(Request $request , $id){
         'service_price'=>$request->service_price,
         'created_at'=>Carbon::now()
 ]);
+return redirect()->route('service')->with('success',"อัพเดตข้อมูลเรียบร้อยแล้ว");
 }
 }
 //อัพเดข้อมูลservice-----------------------------------------

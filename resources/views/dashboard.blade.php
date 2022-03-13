@@ -9,7 +9,7 @@
     <div class="container my-4">
 
         <p class="font-weight-bold">ระบบชงโคคาร์แคร์วิทยาลัยเทคนิคพังงา</p>
-        <a class="btn btn-primary me-2" href="https://codeload.github.com/vebyobit15/basic-tanny/zip/refs/heads/main" target="_blank" role="button">Download Project<i class="fa fa-download"></i></a>
+        <a class="btn btn-primary me-2" href="https://codeload.github.com/vebyobit15/laravel_tannys/zip/refs/heads/main" target="_blank" role="button">Download Project<i class="fa fa-download"></i></a>
         <a class="btn btn-dark me-2" target="_blank" href="https://github.com/vebyobit15/basic-tanny" role="button">GitHub <i class="fa fa-github ms-2"></i></a>
         <a class="btn btn-danger me-2" href="{{ route('creator') }}" role="button">Creator</a>
         <hr class="mb-5"/>
